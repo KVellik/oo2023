@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="421ff168-af0f-4627-9d17-ba659a5fd8d2" name="Changes" comment="" />
+    <list default="true" id="0c60610f-9aaf-47bd-9881-692647c278e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2LrHYllPGLUf8Ps6TDtOtUyZK5d" />
+  <component name="ProjectId" id="2MUvtj3HifkuCE2tkl0mu52GC5s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,24 +20,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/marti/Desktop/oo2023/oo2023/02_klass",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "C:/Users/marti/Desktop/oo2023/oo2023/Game",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="421ff168-af0f-4627-9d17-ba659a5fd8d2" name="Changes" comment="" />
-      <created>1676622332208</created>
+      <changelist id="0c60610f-9aaf-47bd-9881-692647c278e5" name="Changes" comment="" />
+      <created>1677835191304</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676622332208</updated>
-      <workItem from="1676622333311" duration="5886000" />
-      <workItem from="1677832931210" duration="1032000" />
+      <updated>1677835191304</updated>
+      <workItem from="1677835192372" duration="17000" />
     </task>
     <servers />
   </component>
