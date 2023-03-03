@@ -17,17 +17,16 @@ public class Main {
         String Hinnang = Kiiruskaamera(kiirus);
         System.out.println(Hinnang);
 
-        int a = 3;
-        int b = 100;
-        int c = 5;
-        int arvutus = arvutus();
-        System.out.println(arvutus());
+        // Sõiduaeg
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.println("Hetkene sõidukiirus (km/h): ");
+        int kiirus_hetkel = scanner.nextInt();
+        Scanner scanner3 = new Scanner(System.in);
+        System.out.println("Distant sihtkohta (km): ");
+        int distants = scanner.nextInt();
+        float Teekond = (distants / kiirus_hetkel);
+        System.out.println("Sihtkohta jõudmiseks kulub " + Teekond + " tundi.");
 
-
-    }
-
-    private static int arvutus() {
-        return a*b/c;
     }
 
     private static String Kiiruskaamera(int kiirus) {
