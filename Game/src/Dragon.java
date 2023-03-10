@@ -5,7 +5,7 @@ public class Dragon {
     char symbol;
 
     //constructor
-    public Dragon(int worldWidth, int worldHeight){
+    public Dragon(int worldWidth, int worldHeight) {
         this.xCoordinate = getRandomCoordinate(worldWidth);
         this.yCoordinate = getRandomCoordinate(worldHeight);
         this.symbol = 'D';
@@ -13,4 +13,5 @@ public class Dragon {
 
     private static int getRandomCoordinate(int worldDimension) {
         return (int) (Math.random() * (worldDimension - 2) + 1);
+    }
 }

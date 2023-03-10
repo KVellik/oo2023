@@ -5,7 +5,7 @@ public class Orc {
     char symbol;
 
     //constructor
-    public Orc(int worldWidth, int worldHeight){
+    public Orc(int worldWidth, int worldHeight) {
         this.xCoordinate = getRandomCoordinate(worldWidth);
         this.yCoordinate = getRandomCoordinate(worldHeight);
         this.symbol = 'O';
@@ -13,4 +13,5 @@ public class Orc {
 
     private static int getRandomCoordinate(int worldDimension) {
         return (int) (Math.random() * (worldDimension - 2) + 1);
+    }
 }
