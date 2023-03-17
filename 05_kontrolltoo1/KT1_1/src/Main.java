@@ -6,8 +6,10 @@
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
@@ -25,12 +27,25 @@ public class Main {
 
         File file = new File("C:\\Users\\marti\\Desktop\\oo2023\\oo2023\\05_kontrolltoo1\\KT1_1\\keskmised_kiirused.txt");
         Scanner scanner = new Scanner(file);
-        while (scanner.hasNextLine()){
-            String line = scanner.nextLine();
-            System.out.println(line);
+
+        ArrayList<Double> fail_kiirused = new ArrayList<Double>();
+        while (scanner.hasNext()){
+            if (scanner.hasNextDouble()){
+                fail_kiirused.add(scanner.nextDouble());
+            } else {
+                scanner.next();
+            }
         }
         scanner.close();
 
+        double sum = fail_kiirused.stream().mapToDouble(Double::doubleValue).sum();
+        double keskmine2 = sum / fail_kiirused.size();
+        //System.out.println("Failis olevate kiiruste keskmine on " + keskmine2);
+
+        File uusFail = new File("uus_keskmised_kiirused.txt");
+        PrintWriter printWriter = new PrintWriter(uusFail);
+        printWriter.println("Uus keskmine on " + keskmine2 + " km/h");
+        printWriter.close();
     }
 
     private static void keskmineKiirus(double kiirus1, double kiirus2) {
@@ -51,4 +66,6 @@ public class Main {
         }
         return summa1 / summa2;
     }
+
 }
+
