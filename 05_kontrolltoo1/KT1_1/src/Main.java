@@ -11,7 +11,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
-        keskmineKiirus();
+        double kiirus1 = 22.0;
+        double kiirus2 = 66.0;
+
+        keskmineKiirus(kiirus1, kiirus2);
 
         double[] kiirused = {50.0, 70.0, 85.7, 123.0};
         double[] pikkused = {1.0, 1.0, 1.0, 1.0};
@@ -27,12 +30,10 @@ public class Main {
             System.out.println(line);
         }
         scanner.close();
-        
+
     }
 
-    private static void keskmineKiirus() {
-        double kiirus1 = 22.0;
-        double kiirus2 = 66.0;
+    private static void keskmineKiirus(double kiirus1, double kiirus2) {
         int distants = 2;
         double keskmine = (kiirus1 + kiirus2) / distants;
         System.out.println("Kaks kilomeetrit läbitakse keskmiselt " + keskmine + " km/h");
