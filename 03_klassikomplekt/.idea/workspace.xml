@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f49df78-c7e6-4a10-babc-5d45c401f12f" name="Changes" comment="" />
+    <list default="true" id="cc3596be-5d37-4dc3-be82-aa3f55d833a9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2N8khxhdwRzqMY45PkthLWnqrf8" />
+  <component name="ProjectId" id="2NSMuEZvKMh6yJvCkeTdDTLDtDz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +23,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/marti/Desktop/oo2023/oo2023/03_klassikomplekt",
+    "last_opened_file_path": "C:/Users/marti/Desktop/oo2023/oo2023/Game",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -37,27 +34,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f49df78-c7e6-4a10-babc-5d45c401f12f" name="Changes" comment="" />
-      <created>1679053221173</created>
+      <changelist id="cc3596be-5d37-4dc3-be82-aa3f55d833a9" name="Changes" comment="" />
+      <created>1679653250746</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679053221173</updated>
-      <workItem from="1679053222245" duration="8782000" />
-      <workItem from="1679652980576" duration="268000" />
+      <updated>1679653250746</updated>
+      <workItem from="1679653251862" duration="1140000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.InputMismatchException" package="java.util" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -22,7 +22,7 @@ public class World {
                 } else if (x == 0 || x == worldWidth -1) {
                     symbol = '|';
                 } else {
-                    for (Item i: items) {
+                    for (Item i : items) {
                         if (i.yCoordinate == y && i.xCoordinate == x) {        // aktiveerin + parem klõps + refactor + rename
                             symbol = 'I';
                             break;
@@ -35,6 +35,10 @@ public class World {
                     } else if (orcXCoordinaate == x && orcYCoordinaate == y) {
                         symbol = orcSymbol;
                     }
+//                    for (Character c: characters)
+//                        if(c.xCoordinate == x && c.yCoordinate == y) {
+//                            symbol = c.symbol;
+//                        }
                 }
                 System.out.print(symbol);
                 symbol = ' ';
