@@ -1,4 +1,4 @@
-public class Isikukood implements Andmed {
+public class Isikukood {
     String nimi;
     String isikukood;
 
@@ -10,20 +10,5 @@ public class Isikukood implements Andmed {
 
     public String getIsikukoodJaNimi() {
         return "Isikukood: " + this.isikukood + " | Nimi: " + this.nimi;
-    }
-
-    @Override
-    public String getSugu() {
-        return null;
-    }
-
-    @Override
-    public String getKuupäev() {
-        return null;
-    }
-
-    @Override
-    public int getVanus() {
-        return 0;
     }
 }

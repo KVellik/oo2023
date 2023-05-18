@@ -2,7 +2,7 @@ public interface Andmed {
 
     String getSugu();
 
-    String getKuupäev();
+    String getKuupaev();
 
     int getVanus();
 }

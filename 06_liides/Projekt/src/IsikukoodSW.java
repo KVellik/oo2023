@@ -1,4 +1,4 @@
-public class IsikukoodSW extends Isikukood implements Andmed{
+public class IsikukoodSW extends Isikukood implements Andmed {
 
     public IsikukoodSW(String nimi, String isikukood) {
         super(nimi, isikukood);
@@ -10,7 +10,7 @@ public class IsikukoodSW extends Isikukood implements Andmed{
     }
 
     @Override
-    public String getKuupäev() {
+    public String getKuupaev() {
         return null;
     }
 
@@ -19,7 +19,6 @@ public class IsikukoodSW extends Isikukood implements Andmed{
         return 0;
     }
 }
-
 
 //    eelviimane kas on mees või naine, paaritud mehed, paaris naised
 //    YYMMDD-XXXX
