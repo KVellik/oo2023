@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b25163a-7dd7-4118-ba63-c92c37c463e3" name="Changes" comment="" />
+    <list default="true" id="75f9fcf4-e83a-4f7b-bbf5-a00e101b2183" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,17 +13,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PzAjoqvcnHh6krtShFf767MjRE" />
+  <component name="ProjectId" id="2PzK093RxrWyPdpU8WhYUyLtv1l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/marti/Desktop/oo2023/oo2023/06_liides",
+    "last_opened_file_path": "C:/Users/marti/Desktop/oo2023/oo2023/06_liides/Kujundid",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,42 +46,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AutomaatTest">
-    <configuration name="AutomaatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06_liides" />
+  <component name="RunManager">
+    <configuration name="AutomaatTestid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="liidese_junit_alamklass kodutoo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutomaatTest" />
+      <option name="MAIN_CLASS_NAME" value="AutomaatTestid" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutomaatTest.kontrolli_kas_on_naisterahvas_kui_isikukoodi_alguses_on_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06_liides" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutomaatTest" />
-      <option name="METHOD_NAME" value="kontrolli_kas_on_naisterahvas_kui_isikukoodi_alguses_on_4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutomaatTest" />
-        <item itemvalue="JUnit.AutomaatTest.kontrolli_kas_on_naisterahvas_kui_isikukoodi_alguses_on_4" />
+        <item itemvalue="JUnit.AutomaatTestid" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b25163a-7dd7-4118-ba63-c92c37c463e3" name="Changes" comment="" />
-      <created>1684449673162</created>
+      <changelist id="75f9fcf4-e83a-4f7b-bbf5-a00e101b2183" name="Changes" comment="" />
+      <created>1684454245696</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684449673162</updated>
-      <workItem from="1684449674244" duration="2576000" />
+      <updated>1684454245696</updated>
+      <workItem from="1684454246766" duration="3709000" />
     </task>
     <servers />
   </component>
