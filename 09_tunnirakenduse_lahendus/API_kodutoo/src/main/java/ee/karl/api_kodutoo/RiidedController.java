@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RiidedController {
     Riided riided = new Riided(1,"Sokid", 15.99, 10, false );
 
-    @GetMapping("riided")
+    @GetMapping("riided-list")
     public Riided saaRiided() {
         return riided;
     }
@@ -26,9 +26,9 @@ public class RiidedController {
         return riided;
     }
 
-    @GetMapping("saa-riide-kogus")
+    @GetMapping("saa-riide-kogus/{id}/{kogus}")
     public Riided saaKogus(@PathVariable int id, @PathVariable int kogus) {
-        riided.getKogus();
+        riided.setKogus(10);
         return riided;
     }
 
