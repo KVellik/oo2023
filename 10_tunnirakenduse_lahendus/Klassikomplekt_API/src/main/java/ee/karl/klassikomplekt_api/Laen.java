@@ -15,6 +15,6 @@ import java.util.Date;
 public class Laen {
     private int id;
     private double summa;
-    private Date votmisaeg;
+    private String arveNr;
 
 }

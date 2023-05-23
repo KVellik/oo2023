@@ -24,13 +24,14 @@ public class EraisikController {
         return "Eraisik kustutatud!";
     }
 
+    // localhost:8080/lisa-eraisik?id=4&isikukood=38812120123&eesnimi=Madis&perekonnanimi=Maalt
     @PostMapping("lisa-eraisik")
     public List<Eraisik> lisaEraisik(
             @RequestParam int id,
             @RequestParam String isikukood,
             @RequestParam String eesnimi,
             @RequestParam String perekonnanimi) {
-        eraisikud.add(new Eraisik(id, "isikukood", "eesnimi", "perekonnanimi"));
+        eraisikud.add(new Eraisik(id, isikukood, eesnimi, perekonnanimi));
         return eraisikud;
     }
 }

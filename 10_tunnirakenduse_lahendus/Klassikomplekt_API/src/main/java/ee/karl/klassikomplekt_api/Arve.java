@@ -8,11 +8,15 @@ import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
 import java.util.Date;
+import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Arve {
-    private String arveNr;
+    private int id;
+    private Eraisik laenaja;
+    private List<Laen> laenud;
 
 }

@@ -10,23 +10,24 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("laenud")
 public class LaenController {
 
-    @Autowired
-    EraisikController eraisikController;
-    @Autowired
-    ArveController arveController;
+   // Eraisik laenaja1 = new Eraisik(1, "38712210248", "Toomas", "Toomingas");
+   // Eraisik laenaja2 = new Eraisik(2, "38404220817", "Tõnu", "Mõnu");
 
+
+    /*List<Arve> arved = new ArrayList<>(Arrays.asList(
+            new Arve(1, laenaja1, "12345"),
+            new Arve(2, laenaja2, "67890")
+    ));*/
 
     List<Laen> laenud = new ArrayList<>(Arrays.asList(
-            new Laen(5, 10000.0, new Date()),
-            new Laen(6, 1500.0, new Date())
+            new Laen(5,10000.0, "12345"),
+            new Laen(6,15000.0, "67890")
     ));
 
-
-    @GetMapping
-    public List<Laen> saaKoikLaenud() {
+    @GetMapping("laenud")
+    public List<Laen> saaLaenud() {
         return laenud;
     }
 
@@ -50,4 +51,15 @@ public class LaenController {
         }
         return "Laenu ei leitud!";
     }
+
+    // localhost:8080/lisa-laen?id=10&summa=20000.0&arveNr="66666"
+    @PostMapping("lisa-laen/{id}/{summa}/{arveNr}")
+    public List<Laen> lisaLaen(
+            @RequestParam int id,
+            @RequestParam double summa,
+            @RequestParam String arveNr) {
+        laenud.add(new Laen(id, summa, arveNr));
+        return laenud;
+    }
+
 }
